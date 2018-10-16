@@ -321,6 +321,7 @@ void Tree::GenerateTree(){
   }
   
   bool didwesplit = false;
+  int tempsplitfact = fSplitFact;
   while( dummy < fIter ) {
     
     if( dummy > 0 ){
@@ -346,7 +347,7 @@ void Tree::GenerateTree(){
 
 	if( fRandomState ) {
 	  if( fRand->Integer(10)==0 ){
-	    fSplitFact++;
+	    fSplitFact++;// = fRand->Integer(4) + 1;
 	    fNumEntries[fGui_labels[6]]->SetNumber(fSplitFact);
 	    didwesplit=true;
 	  }
@@ -369,11 +370,12 @@ void Tree::GenerateTree(){
 	      next_length += fGaus->Gaus(0.0,0.1*next_length);
 	    }
 	    if( fRand->Integer(3)==0 ){
-	      ang += fGaus->Gaus(0.0, 10.0);
+	      ang += fGaus->Gaus(0.0, 5.0);
 	    }
 	    if( fRand->Integer(4)==0 ){
-	      nstart = nstart - fabs(fGaus->Gaus(0.0,0.1*next_length))*nhat;
+	      nstart = nstart - fabs(fGaus->Gaus(0.0,0.2*next_length))*nhat;
 	    }
+	    //if( fRand->Integer(4)==0 && dummy==fIter-1 ) continue;
 	  }
 	 
       	  TVector2 next_nhat( cos(ang*deg2rad), sin(ang*deg2rad) );
@@ -394,7 +396,7 @@ void Tree::GenerateTree(){
 	// need to reset the global split factor if we randomly split
 	// otherwise it will randomly walk to higher values
 	if( didwesplit ) {
-	  fSplitFact--;
+	  fSplitFact = tempsplitfact;
 	  fNumEntries[fGui_labels[6]]->SetNumber(fSplitFact);
 	  didwesplit = false;
 	}
@@ -515,7 +517,7 @@ void Tree::Draw(){
 
 // Run the Program - this structure is necessary
 int main( int argc, char **argv ) {
-  int w = 1500, h=900;
+  int w = 1280, h=720;
   TApplication theApp( "App", &argc, argv ); 
   new Tree(gClient->GetRoot(),w,h); 
   theApp.Run(); 

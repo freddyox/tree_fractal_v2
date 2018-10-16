@@ -160,8 +160,8 @@ namespace {
 0
     };
     static const char* includePaths[] = {
-"/home/obrecht/Documents/ROOT/build/include",
-"/home/obrecht/Documents/Projects_New/root/tree_program/",
+"/home/freddy/Documents/root/include",
+"/home/freddy/Documents/Projects_New/tree_fractal_v2/",
 0
     };
     static const char* fwdDeclCode = R"DICTFWDDCLS(
@@ -195,7 +195,7 @@ nullptr};
     if (!isInitialized) {
       TROOT::RegisterModule("mydict",
         headers, includePaths, payloadCode, fwdDeclCode,
-        TriggerDictionaryInitialization_mydict_Impl, {}, classesHeaders);
+        TriggerDictionaryInitialization_mydict_Impl, {}, classesHeaders, /*has no C++ module*/false);
       isInitialized = true;
     }
   }
