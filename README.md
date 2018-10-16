@@ -1,5 +1,5 @@
 # tree_fractal_v2
-A full tree fractal program utilizing ROOT libraries, and includes a random tree generator.
+A full tree fractal program utilizing ROOT libraries, and includes a random tree generator GUI.
 
 Requires CERN's ROOT library to be installed:
 https://root.cern.ch/download/root_v6.14.04.source.tar.gz
