@@ -11,5 +11,7 @@ The program may be compiled in the terminal using the following bash script:
 
 which should open a GUI for the user.
 
-# Program
+## Program Description
 * A complete description of the program may be found <a href="https://freddyox.github.io/blog/tree-fractal-v2/">within my website</a>, and a small video may be found <a href="https://www.youtube.com/watch?v=yIIv5fRgoSY&feature=youtu.be">here</a>. 
+* Here are some pretty outputs:
+![Screenshot](pics/nsplit_3.png)<p></p>
