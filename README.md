@@ -20,9 +20,8 @@ which should open a GUI for the user.
 #### Symmetric Outputs:
 * Going clockwise and starting at the top left, the number of branches to generate at a new node is 2, 3, 4, 5, and 9:
 
-![Screenshot](website_pics/assortment_nsplits_small_white.png)
+![Symmetric trees](website_pics/assortment_nsplits_small_white.png)
 
 * Here is a cool gif that I made a long time ago. This is a symmetric tree where two branches are constructed at each node, and the branch angle is adjusted from [0,360] degrees; this produces 360 images which are then strung together to create a gif:
 
-
-![Screenshot](website_pics/assortment_nsplits_small_white.png)
+![Animating a symmetric tree](https://github.com/freddyox/freddyox.github.io/blob/master/images/tree_fractal/fractal2.gif)
