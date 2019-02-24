@@ -16,4 +16,4 @@ which should open a GUI for the user.
 * Here are some pretty outputs: 
  <p></p>
 ![Screenshot](website_pics/tree_road_trip_tiny.png)
-![Screenshot](pics/nsplit_4_thickness.png)
+![Screenshot](https://github.com/freddyox/tree_fractal_v2/tree/master/pics/nsplit_4_thickness.png)
