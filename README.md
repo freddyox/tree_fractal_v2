@@ -22,6 +22,13 @@ which should open a GUI for the user.
 
 ![Symmetric trees](website_pics/assortment_nsplits_small_white.png)
 
-* Here is a cool gif that I made a long time ago. This is a symmetric tree where two branches are constructed at each node, and the branch angle is adjusted from [0,360] degrees; this produces 360 images which are then strung together to create a gif:
+* This is a symmetric tree where two branches are constructed at each node, and the branch angle is adjusted from [0,360] degrees; this produces 360 images which are then strung together to create a gif:<p></p>
 
 ![Animating a symmetric tree](https://github.com/freddyox/freddyox.github.io/blob/master/images/tree_fractal/fractal2.gif)
+
+#### Random Tree Generator
+* Here is an example of the random tree generator, where the output has been put on top of an picture of the Badlands that I took on a roadtrip in 2012:
+
+![Random Badlands](website_pics/tree_road_trip_tiny.png)
+
+![Random Trees](website_pics/more_trees_white.png)
