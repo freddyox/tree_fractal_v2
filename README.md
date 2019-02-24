@@ -13,8 +13,8 @@ which should open a GUI for the user.
 
 ## Program Description
 * A complete description of the program may be found <a href="https://freddyox.github.io/blog/tree-fractal-v2/">within my website</a>, and a small video may be found <a href="https://www.youtube.com/watch?v=yIIv5fRgoSY&feature=youtu.be">here</a>. 
-* Program originally was designed to generate symmetric Pythagorean fractal trees, where the number of branches, angles, lengths, etc. could be adjusted by the user; however, a natural extension to a apply random fluctuations which results in trees that look more natural.
-* In the context of symmetric trees, if one chooses the angles/lengths properly the outputs become very surprising, *e.g.* I was able to replicate a variation of the Sierpinski Triangle among other structures. 
+* The program was originally designed to generate symmetric Pythagorean fractal trees, where the number of branches, angles, lengths, etc. could be adjusted by the user; however, a natural extension is to a apply random fluctuations in a variety of variables which results in trees that look more natural.
+* In the context of symmetric trees, if one chooses the angles/lengths carefully the outputs become very surprising, *e.g.* I was able to replicate a variation of the Sierpinski Triangle among other structures. 
 * I added options to change the color palette, which automatically applies (and dynamically updates) a pretty color gradient based on the iteration number of the fractal.
 
 ### Symmetric Outputs:
@@ -22,7 +22,7 @@ which should open a GUI for the user.
 
 ![Symmetric trees](website_pics/assortment_nsplits_small_white_new.png)
 
-* This is a symmetric tree where two branches are constructed at each node, and the branch angle is adjusted from [0,360] degrees; this produces 360 images which are then strung together to create a gif:<p></p>
+* Here is a symmetric tree where two branches are constructed at each node, and the branch angle is adjusted from [0,360] degrees; this produces 360 images which are then strung together to create a gif:<p></p>
 
 ![Animating a symmetric tree](https://github.com/freddyox/freddyox.github.io/blob/master/images/tree_fractal/fractal2.gif)
 
