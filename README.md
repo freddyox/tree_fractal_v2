@@ -18,7 +18,7 @@ which should open a GUI for the user.
 * I added options to change the color palette, which automatically applies (and dynamically updates) a pretty color gradient based on the iteration number of the fractal.
 
 ### Symmetric Outputs:
-* Going clockwise and starting at the top left, the number of branches to generate at a new node is 2, 3, 4, 5, and 9:
+* Going clockwise and starting at the top left, the number of branches to generate at a new node is 2, 3, 4, 5, and 9 (note that the branch angles are carefully chosen):
 
 ![Symmetric trees](website_pics/assortment_nsplits_small_white_new.png)
 
